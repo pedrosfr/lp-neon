@@ -1,0 +1,41 @@
+.btn-primary{
+    display: inline-block;
+    line-height: 4.8rem;
+    background-color: $brand-yellow;
+    padding: 0 26px;
+    border-radius: 12.2em;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    color: #855B35;
+    transition: background-color .3s ;
+    &:hover{
+        background-color: #FFDC5C;
+    }
+
+}
+.btn-secondary{
+    display: inline-block;
+    border: 1px solid #00A5F0;
+    line-height: 4.8rem;
+    background-color: transparent;
+    padding: 0 26px;
+    border-radius: 12.2em;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 600;
+    color: $brand-light-blue;
+    transition: all .3s ;
+    &:hover{
+        background-color: $brand-light-blue;
+        color: #fff;
+    }
+    &.white{
+        border: 1px solid white;
+        color: white;
+        &:hover{
+            background-color: white;
+            color: $brand-green-light;
+            
+        }
+    }
+
+}
